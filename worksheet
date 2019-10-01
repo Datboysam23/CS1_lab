@@ -1,0 +1,43 @@
+fname=input("Input your First Name : ")
+lname=input("Input your Last Name : ") 
+print ("Hello " + lname + " " + fname)
+
+
+color_list = ["Red","Green","White" ,"Black"] 
+print( "%s %s"%(color_list[0],color_list[-1]))
+
+
+def sum(numbers):
+total = 0
+for x in numbers:
+  total += x
+  Return total 
+print(sum(8, 2, 3, 0, 7)))
+
+
+
+def string_reverse(str1):
+
+rstr1 = ''
+index = len(strl)
+while index > 0:
+rstr1 += str1[ index -1 ]
+index = index - 1
+Return rstr1 
+print(string_resverse('1234abcd')
+
+def is_even_num(l):
+enum = []
+for n in 1 :
+      if n % 2 == 0:
+           enum.append(n)
+     return enum
+print(is_even_num([1, 2, 3, 4, 5, 6, 7, 8, 9]))
+
+
+
+
+def remove_nums(int_list):
+#list starts with 0 index 
+Position = 3 - 1
+
