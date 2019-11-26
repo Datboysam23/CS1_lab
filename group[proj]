@@ -1,0 +1,13 @@
+import random
+number=random.randint(0,150)
+def main():
+    x=int(input('guess a number between one through one-fifty:'))
+    if x == number:
+      print("AY BOSS YOU GOT IT!")
+    elif x >number: 
+      print('HA TOO HIGH')
+      main()   
+    else:
+      print('NOT EVEN CLOSE')
+      main()
+main()
